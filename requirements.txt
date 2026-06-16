@@ -1,0 +1,14 @@
+faiss-cpu>=1.7,<2.0
+rank-bm25>=0.2,<0.3
+numpy>=1.24
+langgraph>=0.2
+mlflow>=2.10
+scipy>=1.11
+fastapi>=0.110
+uvicorn[standard]>=0.29
+pydantic>=2.0
+
+# Optional production extras (not required for the default mock pipeline):
+# openai>=1.0
+# sentence-transformers>=2.5
+# apache-airflow>=2.8

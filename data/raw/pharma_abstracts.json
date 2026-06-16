@@ -1,0 +1,58 @@
+[
+  {
+    "id": "doc_001",
+    "title": "Efficacy of GLP-1 Receptor Agonists in Type 2 Diabetes Management",
+    "source": "Journal of Clinical Endocrinology",
+    "year": 2023,
+    "text": "GLP-1 receptor agonists have demonstrated significant efficacy in reducing HbA1c levels among patients with type 2 diabetes mellitus. In a randomized controlled trial involving 1,200 participants over 52 weeks, semaglutide treatment resulted in a mean HbA1c reduction of 1.8% compared to 0.4% in the placebo group. Additionally, participants experienced a mean weight loss of 12.4 kg. Gastrointestinal adverse events, primarily nausea and vomiting, were reported in 22% of the treatment group during the initial titration period. These findings support GLP-1 receptor agonists as a first-line adjunct therapy for patients with inadequate glycemic control on metformin alone."
+  },
+  {
+    "id": "doc_002",
+    "title": "PySpark-Based Pipeline Optimization for Pharmaceutical Demand Forecasting",
+    "source": "Journal of Supply Chain Analytics",
+    "year": 2024,
+    "text": "Pharmaceutical supply chains generate high-volume transactional data requiring efficient feature engineering pipelines for demand forecasting models. This study presents a distributed feature computation framework built on Apache Spark and deployed on Azure Databricks, processing three years of daily transactional records across fifty product SKUs. The optimized pipeline reduced computation time from 4.5 hours to 40 minutes through partition tuning, broadcast join optimization, and resolution of data skew in high-volume SKU groups. The resulting features were used to train XGBoost and LightGBM models achieving a 22% improvement in forecast accuracy over traditional ARIMA baselines, directly informing inventory replenishment decisions across global distribution centers."
+  },
+  {
+    "id": "doc_003",
+    "title": "Structured Pruning of Convolutional Neural Networks for Edge Deployment",
+    "source": "Proceedings of Neural Compression Workshop",
+    "year": 2026,
+    "text": "Structured pruning reduces the computational cost of convolutional neural networks by removing entire filters rather than individual weights, preserving dense tensor structures suitable for standard hardware accelerators. This paper proposes a gradient-free pruning framework based on Local Binary Pattern texture descriptors and Correlation-based Feature Selection, applied to all 2,032 prunable filters across 55 layers of ResNet-56. The approach achieves a 5.1x reduction in multiply-accumulate operations, from 125.75 to 24.86 MMACs, while recovering to 87.28% test accuracy on CIFAR-10 after fine-tuning. The method operates entirely in the forward pass, without requiring gradient computation, optimizer state, or access to the loss function, making it suitable for post-deployment compression scenarios."
+  },
+  {
+    "id": "doc_004",
+    "title": "GxP-Compliant Model Explainability in Pharmaceutical Forecasting Systems",
+    "source": "Pharmaceutical Technology Review",
+    "year": 2024,
+    "text": "Regulatory frameworks for pharmaceutical manufacturing require that machine learning models used in supply chain and demand forecasting decisions be auditable and explainable. SHAP (SHapley Additive exPlanations) values provide a model-agnostic method for attributing prediction outcomes to individual input features, satisfying Good Practice (GxP) documentation requirements. In a case study involving an XGBoost-based demand forecasting model deployed across 50 SKUs, SHAP analysis identified seasonality, promotional calendar events, and prior-month inventory levels as the dominant predictive features. Integration of SHAP explanations into the model serving pipeline, alongside MLflow experiment tracking and versioned model artifacts, established a complete audit trail satisfying internal regulatory review requirements."
+  },
+  {
+    "id": "doc_005",
+    "title": "Drift Detection and Automated Retraining in Production ML Pipelines",
+    "source": "MLOps Practitioner Journal",
+    "year": 2024,
+    "text": "Machine learning models deployed in production environments experience performance degradation over time due to data drift and concept drift. This paper describes an automated monitoring framework using statistical tests including the Kolmogorov-Smirnov test and Population Stability Index to detect distributional shifts in input features and prediction outputs. When drift exceeds defined thresholds, an Airflow-orchestrated retraining pipeline is triggered automatically, retraining the model on recent data and validating performance against holdout benchmarks before promotion. Implementation of this framework reduced the mean time to detection of model performance issues by 60%, and blue-green deployment strategies on cloud-based model serving endpoints ensured zero-downtime model updates."
+  },
+  {
+    "id": "doc_006",
+    "title": "Retrieval-Augmented Generation for Enterprise Document Search",
+    "source": "Conference on Applied NLP Systems",
+    "year": 2025,
+    "text": "Retrieval-Augmented Generation (RAG) combines dense vector retrieval with large language model generation to answer natural language queries grounded in private document corpora. This study evaluates chunking strategies and embedding configurations for enterprise document search, comparing fixed-size chunking against semantic chunking approaches across a corpus of internal technical documentation. Hybrid retrieval combining dense vector search with BM25 sparse re-ranking improved answer faithfulness by 28% over pure vector search. A multi-step agent architecture using tool use and conditional branching improved retrieval precision at rank 5 by 31% and reduced hallucination rates by 35%, evaluated using the RAGAS framework across faithfulness, answer relevancy, and context recall metrics."
+  },
+  {
+    "id": "doc_007",
+    "title": "MDLP Discretisation for Information-Theoretic Feature Selection in Deep Networks",
+    "source": "Proceedings of Neural Compression Workshop",
+    "year": 2026,
+    "text": "Minimum Description Length Partitioning (MDLP), based on the Fayyad-Irani recursive splitting criterion, provides class-aware discretisation of continuous feature distributions for information-theoretic feature selection. When applied to Local Binary Pattern histograms extracted from convolutional neural network activations, MDLP identifies filters with class-uniform distributions as non-informative through a single-bin outcome, a signal that uniform binning cannot produce. Empirical analysis across 55 layers of a ResNet-56 architecture found that Stage 3 BN2 layers exhibited the highest mean Symmetrical Uncertainty scores, indicating these filters retain the most class-discriminative information and require conservative pruning budgets compared to earlier network stages."
+  },
+  {
+    "id": "doc_008",
+    "title": "Time-Series Forecasting Approaches for Inventory Optimization in Biopharmaceutical Manufacturing",
+    "source": "Journal of Biopharmaceutical Operations",
+    "year": 2023,
+    "text": "Inventory optimization in biopharmaceutical manufacturing requires forecasting models that account for long lead times, batch-based production schedules, and regulatory release testing delays. Gradient-boosted tree models, including XGBoost and LightGBM, were evaluated against classical ARIMA and exponential smoothing baselines across historical demand data for biologic and small-molecule products. Gradient-boosted models incorporating lag features, rolling aggregates, and external regressors such as promotional calendars achieved a 22% reduction in mean absolute percentage error compared to ARIMA baselines, enabling more precise safety stock calculations and reduced excess inventory carrying costs across the distribution network."
+  }
+]

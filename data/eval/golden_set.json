@@ -1,0 +1,34 @@
+[
+  {
+    "query": "What MAC reduction was achieved by the structured pruning framework on ResNet-56?",
+    "reference_answer": "The framework achieves a 5.1x reduction in multiply-accumulate operations, from 125.75 to 24.86 MMACs, while recovering to 87.28% test accuracy on CIFAR-10 after fine-tuning."
+  },
+  {
+    "query": "How much did the PySpark pipeline optimization reduce computation time?",
+    "reference_answer": "The optimized pipeline reduced computation time from 4.5 hours to 40 minutes through partition tuning, broadcast join optimization, and resolution of data skew."
+  },
+  {
+    "query": "What role does SHAP play in GxP compliant forecasting systems?",
+    "reference_answer": "SHAP values provide a model-agnostic method for attributing prediction outcomes to individual input features, satisfying Good Practice documentation requirements for auditable and explainable models."
+  },
+  {
+    "query": "What statistical tests are used to detect data drift in production ML pipelines?",
+    "reference_answer": "The Kolmogorov-Smirnov test and Population Stability Index are used to detect distributional shifts in input features and prediction outputs."
+  },
+  {
+    "query": "How does hybrid retrieval improve answer faithfulness compared to pure vector search?",
+    "reference_answer": "Hybrid retrieval combining dense vector search with BM25 sparse re-ranking improved answer faithfulness by 28% over pure vector search."
+  },
+  {
+    "query": "What did MDLP discretisation reveal about Stage 3 BN2 layers in ResNet-56?",
+    "reference_answer": "Stage 3 BN2 layers exhibited the highest mean Symmetrical Uncertainty scores, indicating these filters retain the most class-discriminative information and require conservative pruning budgets."
+  },
+  {
+    "query": "What was the HbA1c reduction observed with semaglutide treatment?",
+    "reference_answer": "Semaglutide treatment resulted in a mean HbA1c reduction of 1.8% compared to 0.4% in the placebo group over 52 weeks."
+  },
+  {
+    "query": "How much did gradient-boosted models improve forecast accuracy over ARIMA baselines in biopharmaceutical inventory optimization?",
+    "reference_answer": "Gradient-boosted models incorporating lag features, rolling aggregates, and external regressors achieved a 22% reduction in mean absolute percentage error compared to ARIMA baselines."
+  }
+]
